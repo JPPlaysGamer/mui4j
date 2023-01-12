@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.iei.mui4j translation="es_ES">
+
+	<mnLangs>Idiomas</mnLangs>
+	<mnLangsEntries>
+		<mntmptbr>Portugués (Brasil)</mntmptbr>
+		<mntmenus>Inglés (USA)</mntmenus>
+		<mntmeses>Español (España)</mntmeses>
+	</mnLangsEntries>
+
+	<mntmExit>Salir</mntmExit>
+
+</com.iei.mui4j>
