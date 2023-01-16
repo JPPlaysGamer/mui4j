@@ -4,6 +4,8 @@ import java.util.Objects;
 
 import javax.swing.JComponent;
 
+import javafx.css.Styleable;
+import javafx.event.EventTarget;
 import javafx.scene.Node;
 
 /**
@@ -56,7 +58,25 @@ public class ComponentWrapper {
 	 * DOCUMENT ME
 	 *
 	 */
-	public <T extends Node> T asFx(Class<T> objectType) {
+	public <T extends Styleable> T asFxS(Class<T> objectType) {
+		return type == ComponentType.JAVAFX ? objectType.cast(component) : null;
+	}
+	
+	/**
+	 * 
+	 * DOCUMENT ME
+	 *
+	 */
+	public <T extends EventTarget> T asFxET(Class<T> objectType) {
+		return type == ComponentType.JAVAFX ? objectType.cast(component) : null;
+	}
+	
+	/**
+	 * 
+	 * DOCUMENT ME
+	 *
+	 */
+	public <T extends Styleable & EventTarget> T asFx(Class<T> objectType) {
 		return type == ComponentType.JAVAFX ? objectType.cast(component) : null;
 	}
 	
@@ -94,8 +114,10 @@ public class ComponentWrapper {
 					throw new ClassCastException("Invalid component! " + String.format("[%s != %s]", JComponent.class, component.getClass()));
 				break;
 			case JAVAFX:
-				if(!(component instanceof Node))
-					throw new ClassCastException("Invalid component! " + String.format("[%s != %s]", Node.class, component.getClass()));
+				boolean isStyleable = component instanceof Styleable;
+				boolean isEventTarget = component instanceof EventTarget;
+				if(!isStyleable && !isEventTarget)
+					throw new ClassCastException("Invalid component! " + String.format("[%s != %s]", Styleable.class + "/" + EventTarget.class, component.getClass()));
 				break;
 		}
 		

@@ -65,6 +65,10 @@ public interface Updater {
 		return result;
 	}
 	
+	public default void onFXThread(Runnable run) {
+		javafx.application.Platform.runLater(run);
+	}
+	
 	/**
 	 * 
 	 * DOCUMENT ME

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="mnwin" mnemonicParsing="false" text="Window">
+            <items>
+              <MenuItem fx:id="miClose" mnemonicParsing="false" onAction="#exit" text="Close" />
+            </items>
+          </Menu>
+          <Menu fx:id="mnHelp" mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="miAbout" mnemonicParsing="false" onAction="#about" text="About" />
+                  <Menu fx:id="mnLang" mnemonicParsing="false" text="Languages">
+                    <items>
+                      <MenuItem fx:id="miptbr" mnemonicParsing="false" text="ptbr" />
+                        <MenuItem fx:id="mienus" mnemonicParsing="false" text="enus" />
+                        <MenuItem fx:id="mieses" mnemonicParsing="false" text="eses" />
+                    </items>
+                  </Menu>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

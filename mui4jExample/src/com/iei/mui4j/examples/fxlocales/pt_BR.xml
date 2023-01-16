@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.iei.mui4j translation="pt_BR">
+
+	<mnLangs>Idiomas</mnLangs>
+	<mnLangsEntries>
+		<mntmptbr>Português (Brasil)</mntmptbr>
+		<mntmenus>Inglês (EUA)</mntmenus>
+		<mntmeses>Espanhol (Espanha)</mntmeses>
+	</mnLangsEntries>
+
+	<mntmExit>Sair</mntmExit>
+
+	<mnHelp>Ajuda</mnHelp>
+	
+	<mntmAbout>Sobre</mntmAbout>
+
+	<mnWin>Janela</mnWin>
+	
+	<alert>
+		<title>JavaFX</title>
+		<header>Informação</header>
+		<text>Olá Mundo!</text>
+	</alert>
+
+</com.iei.mui4j>
