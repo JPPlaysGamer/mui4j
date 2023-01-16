@@ -3,9 +3,6 @@ package com.iei.mui4j.examples;
 import java.util.List;
 import java.util.Locale;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-
 import com.iei.mui4j.MUIConfiguration;
 import com.iei.mui4j.MUIFile;
 import com.iei.mui4j.Updater;

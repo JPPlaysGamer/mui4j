@@ -6,7 +6,6 @@ import javax.swing.JComponent;
 
 import javafx.css.Styleable;
 import javafx.event.EventTarget;
-import javafx.scene.Node;
 
 /**
  * 
