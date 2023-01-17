@@ -8,9 +8,9 @@
   
   <dependencies>
 	  <dependency>
-		  <groupId>com.iei</groupId>
-		  <artifactId>mui4j</artifactId>
-		  <version>0.0.1-SNAPSHOT</version>
+  		<groupId>com.iei</groupId>
+  		<artifactId>mui4j</artifactId>
+  		<version>0.0.2-SNAPSHOT</version>
 	  </dependency>
 	  <dependency>
 	  	<groupId>org.openjfx</groupId>
