@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.iei</groupId>
   <artifactId>mui4j</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>Multilingual User Interface Java</name>
   <description>An API for creating multi-language apps.</description>
   

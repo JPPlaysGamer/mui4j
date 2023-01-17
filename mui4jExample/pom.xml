@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.iei.examples</groupId>
   <artifactId>mui4jExample</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>Examples of mui4j</name>
   <description>Contains examples of mui4j using Swing and JavaFX</description>
   
@@ -10,7 +10,7 @@
 	  <dependency>
   		<groupId>com.iei</groupId>
   		<artifactId>mui4j</artifactId>
-  		<version>0.0.2-SNAPSHOT</version>
+  		<version>0.0.3-SNAPSHOT</version>
 	  </dependency>
 	  <dependency>
 	  	<groupId>org.openjfx</groupId>
